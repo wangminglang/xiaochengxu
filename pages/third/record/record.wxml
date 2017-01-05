@@ -1,0 +1,8 @@
+<view class="bg">
+    <block wx:for="{{list}}">
+        <view class="item" bindtap="itemClick" id="{{index}}">
+            <text>{{item.title}}</text>
+            <image src="/images/ico_jiantou.png"></image>
+        </view>
+    </block>
+</view>

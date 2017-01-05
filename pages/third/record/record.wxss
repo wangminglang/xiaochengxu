@@ -1,0 +1,23 @@
+/* pages/third/record/record.wxss */
+.item{
+    width: 100%;
+    height: 120rpx;
+    background-color: white;
+    margin-top: 1px;
+    position: relative;
+}
+
+.item text{
+    height: 120rpx;
+    line-height: 120rpx;
+    position: absolute;
+    left: 20rpx;
+}
+
+.item image{
+    height: 30rpx;
+    width: 20rpx;
+    top: 45rpx;
+    position: absolute;
+    right: 20rpx;
+}

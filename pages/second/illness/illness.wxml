@@ -1,0 +1,24 @@
+<view class="bg">
+    <view class="head">
+        <view class="scrollView">
+            <scroll-view scroll-x="true" scroll-left="{{scrollX}}" class="items">
+                <block wx:for="{{items}}">
+                    <view bindtap="select" id="{{index}}" class="{{item.selected}}">{{item.title}}</view>
+                </block>
+            </scroll-view>
+        </view>
+        <view class="searchView">+按拼音查</view>
+    </view>
+    <view class="listView">
+        <block wx:for="{{lists}}">
+            <view class="view">
+                <image class="bigImg" src="{{item.bigImg}}"></image>
+                <view class="title">{{item.title}}</view>
+                <view class="detail">{{item.detail}}</view>
+                <view class="date">{{item.date}}</view>
+                <image class="smallImg" src="{{item.smallImg}}"></image>
+                <view class="num">{{item.num}}</view>
+            </view>
+        </block>
+    </view>
+</view>

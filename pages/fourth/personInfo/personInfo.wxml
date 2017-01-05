@@ -1,0 +1,20 @@
+<view class="bg">
+    <view class="head"></view>
+    <view class="icon">
+        <view class="title">头像</view>
+        <image src="/images/ico_hkh.png"></image>
+    </view>
+    <view class="name">
+        <view class="title">昵称</view>
+        <view class="detail">wang</view>
+    </view>
+    <view class="phone">
+        <view class="title">手机号</view>
+        <view class="num">156****0750</view>
+    </view>
+    <view class="reset">
+        <view class="title">修改登录密码</view>
+        <image src="/images/ico_jiantou.png"></image>
+    </view>
+    <view bindtap="logout" class="logout">退出登录</view>
+</view>

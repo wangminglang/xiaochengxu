@@ -1,0 +1,118 @@
+.header{
+    width: 100%;
+    position: relative;
+    height: 600rpx;
+}
+
+.indexBg{
+    width: 49%;
+    height:200rpx;
+    position: relative;
+    background-size: 100%;
+    float: left;
+    display: block;
+    background-repeat: no-repeat;
+}
+.anniu1{
+    background-image: url(/images/ico_shouyeanniu1.png);
+}
+.anniu2{
+    background-image: url(/images/ico_shouyeanniu2.png);
+}
+.anniu3{
+    background-image: url(/images/ico_shouyeanniu3.png);
+}
+.anniu4{
+    background-image: url(/images/ico_shouyeanniu4.png);
+}
+.anniu5{
+    background-image: url(/images/ico_shouyeanniu5.png);
+}
+.anniu6{
+    background-image: url(/images/ico_shouyeanniu6.png);
+}
+.img{
+  width: 100rpx;
+  height: 100rpx;
+  position: absolute;
+  top: 50rpx;
+  left: 50rpx;
+}
+.title{
+  display: block;
+  font-size: 32rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  position: absolute;
+  top: 50rpx;
+  overflow: hidden;
+  left: 150rpx;
+  width: 200rpx;
+}
+.detail{
+  display: block;
+  font-size: 20rpx;
+  width: 200rpx;
+  overflow: hidden;
+  height: 50rpx;
+  line-height: 50rpx;
+  position: absolute;
+  bottom: 50rpx;
+  left: 150rpx;
+}
+.swiper{
+    width: 100%;
+    height: 200rpx;
+}
+.swiper image{
+    width: 100%;
+    height: 100%;
+}
+.swiper2{
+    width: 100%;
+    height: 300rpx;
+    border-bottom: 20rpx solid #eaeaea;
+}
+.swiper2 image{
+    width: 100%;
+    height: 100%;
+}
+.recommentDoc{
+    width: 100%;
+    height: 100rpx;
+    background-color: white;
+    border-top: 20rpx solid #eaeaea;
+    border-bottom: 5rpx solid #eaeaea;
+}
+.recommentDoc .leftView{
+    height: 50rpx;
+    line-height: 50rpx;
+    width: 8rpx;
+    background-color: #56d1a8;
+    float: left;
+    margin-top: 25rpx;
+    margin-left: 25rpx;
+}
+.recommentDoc .leftText{
+    height: 50rpx;
+    line-height: 50rpx;
+    font-size: 40rpx;
+    margin-top: 25rpx;
+    margin-left: 10rpx;
+    float: left;
+}
+.recommentDoc .rightText{
+    height: 50rpx;
+    line-height: 50rpx;
+    font-size: 35rpx;
+    margin-top: 25rpx;
+    margin-right: 10rpx;
+    float: right;
+}
+.recommentDoc image{
+    height: 30rpx;
+    width: 20rpx;
+    float: right;
+    margin-right: 25rpx;
+    margin-top: 35rpx;
+}

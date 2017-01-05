@@ -1,0 +1,8 @@
+<view class="bg">
+    <block wx:for="{{lists}}">
+        <view class="small">
+            <view class="date">{{item.date}}</view>
+            <view class="type">{{item.type}}</view>
+        </view>
+    </block>
+</view>

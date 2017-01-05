@@ -1,0 +1,104 @@
+/* pages/second/illness/illness.wxss */
+.head{
+    width: 100%;
+    height: 100rpx;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+.head .scrollView{
+    width: 240px;
+    height: 100%;
+    float: left;
+}
+.head .searchView{
+    width: 80px;
+    height: 100%;
+    line-height: 100rpx;
+    text-align: center;
+    float: right;
+    color: #56d1a8;
+    font-size: 32rpx;
+}
+.head .scrollView .items{
+    width: 100%;
+    height: 100rpx;
+    white-space: nowrap;
+}
+.head .scrollView .items view{
+    width: 60px;
+    height: 100rpx;
+    line-height: 100rpx;
+    text-align: center;
+    font-size: 32rpx; 
+    color: black;
+    display: inline-block;
+    box-sizing: border-box;
+    border-bottom: 2px solid white;
+}
+.head .scrollView .items view.on{
+    color: #56d1a8;
+    border-bottom: 2px solid #56d1a8;
+}
+
+.listView{
+    width: 100%;
+    position: absolute;
+    top: 120rpx;
+}
+.listView .view{
+    width: 100%;
+    height: 200rpx;
+    background-color: white;
+    position: relative;
+    border-bottom: 2px solid #eaeaea;
+}
+.listView .view .bigImg{
+    width: 200rpx;
+    height: 160rpx;
+    position: absolute;
+    left: 20rpx;
+    top: 20rpx;
+}
+.listView .view .title{
+    height: 50rpx;
+    line-height: 50rpx;
+    position: absolute;
+    top: 20rpx;
+    left: 240rpx;
+    font-size: 32rpx;
+}
+.listView .view .detail{
+    height: 50rpx;
+    line-height: 50rpx;
+    position: absolute;
+    top: 70rpx;
+    left: 240rpx;
+    font-size: 28rpx;
+}
+.listView .view .date{
+    height: 50rpx;
+    line-height: 50rpx;
+    position: absolute;
+    left: 240rpx;
+    bottom: 20rpx;
+    font-size: 28rpx;
+}
+.listView .view .smallImg{
+    width: 30rpx;
+    height: 30rpx;
+    position: absolute;
+    right: 120rpx;
+    bottom: 35rpx;
+}
+.listView .view .num{
+    width: 100rpx;
+    height: 50rpx;
+    line-height: 50rpx;
+    position: absolute;
+    right: 20rpx;
+    bottom: 20rpx;
+    font-size: 28rpx;
+    text-align: center;
+}

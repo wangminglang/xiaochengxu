@@ -1,0 +1,63 @@
+<view class="bg">
+    <view class="sectionOne">
+        <view class="headImg">
+            <image bindtap="headClick" class="center" src="/images/ico_hkh.png"></image>
+            <view bindtap="headClick" class="name">{{name}}</view>
+            <image bindtap="msgClick" class="right" src="/images/ico_xiaoxid2.png"></image>
+        </view>
+        <view class="headList">
+            <block wx:for="{{headList}}">
+                <view class="headView">
+                    <text class="num">{{item.num}}</text>
+                    <text class="title">{{item.title}}</text>
+                </view>
+            </block>
+        </view>
+    </view>
+
+    <view class="sectionTwo">
+        <view class="title">
+            <image src="/images/ico_gerenzhongxin_huiyuanzhongxin.png"></image>
+            <text>会员中心</text>
+        </view>
+        <view class="twoList">
+            <block wx:for="{{twoList}}">
+                <view class="twoView">
+                    <text class="num">{{item.num}}</text>
+                    <view class="bottom">
+                        <image src="{{item.src}}"></image>
+                        <text>{{item.title}}</text>
+                    </view>
+                </view>
+            </block>
+        </view>
+    </view>
+
+    <view class="sectionThree">
+        <view class="title">
+            <image src="/images/ico_qianbao.png"></image>
+            <text>我的钱包</text>
+        </view>
+        <view class="threeList">
+            <block wx:for="{{threeList}}">
+                <view class="threeView">
+                    <text class="num">{{item.num}}</text>
+                    <view class="bottom">
+                        <image src="{{item.src}}"></image>
+                        <text>{{item.title}}</text>
+                    </view>
+                </view>
+            </block>
+        </view>
+    </view>
+
+    <view class="sectionFour">
+        <block wx:for="{{fourList}}">
+            <view class="fourView">
+                <image class="imageLeft" src="{{item.src}}"></image>
+                <view>{{item.title}}</view>
+                <image class="imageRight" src="/images/ico_jiantou.png"></image>
+            </view>
+        </block>
+    </view>
+</view>

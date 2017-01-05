@@ -1,0 +1,9 @@
+<form bindsubmit="formSubmit">
+    <input name="district" class="district input" type="text" placeholder="国家/地区" placeholder-class="placeholderC"></input>
+    <input name="username" class="username input" type="number" placeholder="请输入手机号码" placeholder-class="placeholderC"></input>
+    <input name="password" class="password input" type="text" password="true" placeholder="请输入密码，6-20位数字、字母、符号" placeholder-class="placeholderC"></input>
+    <button class="button" hover-class="button-hover" formType="submit">马上登陆</button>
+</form>
+
+<view class="register" bindtap="register">注册新账号</view>
+<view class="forget" bindtap="forget">忘记密码</view>

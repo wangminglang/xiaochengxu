@@ -1,0 +1,32 @@
+<view class="header">
+    <block wx:for="{{indexSection}}">
+        <view class="indexBg {{item.class}}" bindtap="click" id="{{index}}">
+            <image class="img" src="{{item.src}}"></image>
+            <text class="title">{{item.title}}</text>
+            <text class="detail">{{item.detail}}</text>       
+        </view>
+    </block>
+</view>
+
+<swiper class="swiper" indicator-dots="true" autoplay="true" interval="5000">
+    <block wx:for="{{imagesUrl}}">
+    <swiper-item>
+        <image bindtap="imageClick" src="{{item}}"></image>
+    </swiper-item>
+    </block>
+</swiper>
+
+<view class="recommentDoc">
+    <view class="leftView"></view>
+    <text class="leftText">名医推荐</text>
+    <image src="/images/ico_jiantou.png"></image>
+    <text class="rightText">查看更多</text>
+</view>
+
+<swiper class="swiper2">
+    <block wx:for="{{imagesUrl}}">
+    <swiper-item>
+        <image bindtap="imageClick" src="{{item}}"></image>
+    </swiper-item>
+    </block>
+</swiper>

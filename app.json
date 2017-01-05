@@ -1,0 +1,74 @@
+{
+  "pages":[
+    "pages/first/index/index",
+    "pages/first/freeConsultation/freeConsultation",
+    "pages/first/joinMember/joinMember",
+    "pages/first/buyMedicine/buyMedicine",
+    "pages/first/orderExpert/orderExpert",
+    "pages/first/leavePage/leavePage",
+    "pages/first/medicalService/medicalService",
+
+    "pages/second/illness/illness",
+
+    "pages/third/record/record",
+    "pages/third/emrList/emrList",
+    "pages/third/netAdviceList/netAdviceList",
+    "pages/third/prescriptionList/prescriptionList",
+    "pages/third/videoInquiryList/videoInquiryList",
+
+    "pages/fourth/center/center",
+    "pages/fourth/personInfo/personInfo",
+    "pages/fourth/msgRemind/msgRemind",
+
+    "pages/login/login/login",
+    "pages/login/register/register",
+    "pages/login/forget/forget"
+   
+  ],
+  "window":{
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#56d1a8",
+    "backgroundColor": "white",
+    "enablePullDownRefresh": true,
+    "backgroundTextStyle": "dark"
+  },
+  "tabBar":{
+    "color": "#dddddd",
+    "selectedColor": "#56d1a8",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/first/index/index",
+        "iconPath": "images/shouye.png",
+        "selectedIconPath": "images/shouye_lv.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/second/illness/illness",
+        "iconPath": "images/jiankangzhishi.png",
+        "selectedIconPath": "images/jiankangzhishi_lv.png",
+        "text": "查疾病"
+      },
+      {
+        "pagePath": "pages/third/record/record",
+        "iconPath": "images/ico_wenzhengjilu.png",
+        "selectedIconPath": "images/ico_wenzhengjilud.png",
+        "text": "问诊记录"
+      },
+      {
+        "pagePath": "pages/fourth/center/center",
+        "iconPath": "images/geren.png",
+        "selectedIconPath": "images/geren_lv.png",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "networkTimeout":{
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
